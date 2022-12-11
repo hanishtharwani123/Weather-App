@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background: #000000d0;
+    width: 25vw;
+    height: 42vh;
+    border-radius: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 29px;
+}
+
+input.sear {
+    padding: 9px;
+    border-radius: 18px;
+    border: 0;
+    width: 200px;
+    height: 13px;
+    background: #7c7c7c2b;
+    position: relative;
+    left: -5px;
+    outline: none;
+    color: white;
+    font-family: inherit;
+}
+
+.btn {
+    color: white;
+    border: 0;
+    background: #7c7c7c2b;
+    color: white;
+    border-radius: 19px;
+    width: 32px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn:hover {
+    background: #7c7c7c6b;
+}
+
+.par {
+    padding-left: 62px;
+}
+
+.city {
+    color: white;
+    font-size: 22px;
+}
+
+.temp {
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+.ter {
+    padding-left: 62px;
+    margin-top: 5px;
+}
+
+.humidity {
+    color: white;
+    font-size: 13px;
+}
+
+.wind {
+    color: white;
+    font-size: 13px;
+}
+
+.description {
+    color: white;
+    font-size: 13px;
+}
